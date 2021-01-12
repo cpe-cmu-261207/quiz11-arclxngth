@@ -15,10 +15,19 @@ modify.addEventListener("click", function() {
 
 // -------------------------------------------------
 
-const table = document.getElementById("table")
+const table = document.getElementById("button-create-table")
 table.addEventListener("click", function(){
     const row = document.getElementById("input-row")
     const clm = document.getElementById("input-col")
+
+    let table = document.getElementById("table")
+
+    for(let r of row){
+        let Row = table.insertRow();
+        let element = "1";
+        
+    }
+    
 
     
 })
